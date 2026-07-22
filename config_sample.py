@@ -1,10 +1,10 @@
 # REQUIRED CONFIG
 BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
-DATABASE_URL = ""
-
+OWNER_ID = "6066102279"                               # Require restart after changing it while bot running
+TELEGRAM_API = "26378339"                           # Require restart after changing it while bot running
+TELEGRAM_HASH = "d5b14fef7f38588836b1a8ba762f8f08"                          # Require restart after changing it while bot running
+DATABASE_URL = "mongodb+srv://sharku:zKKosLfBvResoqhF@cluster0.jped6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATA", "SHARKWZMLDB")
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
 TG_PROXY = {}  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
@@ -51,8 +51,8 @@ DISABLE_SEARCH = False
 DISABLE_YTDLP = False
 
 # Telegraph
-AUTHOR_NAME = "WZML-X"
-AUTHOR_URL = "https://t.me/WZML_X"
+AUTHOR_NAME = "SharkToonsIndia"
+AUTHOR_URL = "https://t.me/SharkToonsIndia"
 
 # Task Limits
 DIRECT_LIMIT = 0
@@ -110,7 +110,7 @@ LOGIN_PASS = ""
 ENABLE_TELEMETRY = True  # Send crash reports to remote worker
 
 # Bot Settings
-BOT_PM = False
+BOT_PM = True
 SET_COMMANDS = True
 TIMEZONE = "Asia/Kolkata"
 
